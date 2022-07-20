@@ -1,0 +1,91 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@0,500;0,600;0,700;1,700&display=swap');
+
+body{
+    font-family: 'Lobster', cursive;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.world-cup-banner-section{
+    display: flex;
+    background-color: #161616;
+    border-radius: 30px;
+    margin-top: 50px;
+    margin-left: 140px;
+    margin-right: 139px;
+    padding-left: 100px;
+    margin-bottom: 130px;
+}
+.world-cup-banner{
+    width: 50%; 
+}
+
+.world-cup-banner img{
+    width: 80%;
+    padding-left: 50px;
+    padding-right: 79px;
+    padding-top: 100px;
+}
+.world-cup-banner h1{
+    width: 531px;
+    font-size: 70px;
+    color: #FFFFFF;
+    padding-top: 50px;
+}
+.world-cup-banner p{
+    font-size: 16px;
+    color: #FFFFFF;
+  
+}
+.world-cup-banner button{
+    font-size: 20px;
+    font-weight: 400;
+    background-color: red;
+    padding: 16px 25px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    margin-bottom: 111px;
+    
+}
+/* card section start */
+.card-section{
+    display: flex;
+}
+.card-button{
+ 
+    display: grid;
+    grid-template-row: repeat(3,1fr);
+    row-gap:33%;
+    background-color: #161616;
+    
+}
+.card-button a{
+    text-decoration: none;
+    color: #161616;
+    background-color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+}
+.card-button .upcoming{
+   padding:30px;
+    text-align: center;
+    border-radius: 10px;
+   
+ 
+}
+.card-button .allgroup{
+   padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+   
+ 
+}
+.card-button .blog{
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+   
+ 
+}
+
+
