@@ -236,3 +236,44 @@ body {
     color: white;
 }
 /* player */
+
+/* Mobile devices responsib star */
+@media only screen and (min-width:320px) and (max-width:480px) {
+   
+    .banner-top{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+    }
+    .banner h1{
+        font-size: 22px;
+        text-align: center;
+       
+    }
+    .live{
+        margin-bottom: 10px;
+    }
+    .features{
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .feature-1{
+        background-color: #E8E8E8;
+    }
+    .left-side{
+        margin: 10px 10px;
+    }
+    .feature-2{
+        margin-top: 10px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .footer h2{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .footer-info li{
+        display: block;
+    }
+
+/* Mobile devices responsib End */
