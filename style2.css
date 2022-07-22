@@ -6,7 +6,9 @@ body {
 }
 
 /* header-section-start */
-
+.header-section{
+    margin-bottom: 130px;
+}
 
 .container {
     width: 80%;
@@ -59,10 +61,6 @@ body {
     border-radius: 5px;
     font-size: 20px;
 }
-
-
-
-
 /* main-section-start */
 
 .features {
@@ -78,13 +76,44 @@ body {
     height: 300px;
 }
 
-.feature-2 {
+.feature-2{
     width: 80%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 20px;
-    grid-row-gap: 10px;
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
 }
+.flag-container{
+    display: flex;
+    justify-content: center;
+
+    align-self: center;
+}
+.flag{
+    width: 312px;
+    height: 242px;
+}
+.flag span{
+    
+    font-size: 16px;
+    padding: 22px; 
+    align-items: center;  
+    
+}
+
+.feature-2 .player {
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    border-radius: 5px;
+    
+}
+
+.player img {
+    width: 80%;
+}
+/* player flag section */
+/* .player{
+   display: flex;
+} */
 
 .left-side {
     margin: 50px 10px;
@@ -96,14 +125,14 @@ body {
 
 .coming a {
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 20px;
 }
 
 .coming {
-    background-color: white;
+    background-color: #DD0000;
     padding: 10px 10px;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .groups a {
@@ -121,56 +150,24 @@ body {
 
 .blogs a {
     text-decoration: none;
-    color: white;
+    color: black;
     font-size: 20px;
 }
 
 .blogs {
-    background-color: #1f77d3;
+    background-color: white;
     padding: 10px 72px;
     border-radius: 5px;
 }
 
-
-
-.player {
-    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
-    border-radius: 5px;
-}
-
-.player img {
-    width: 100%;
-}
-
 .info {
     margin: 10px 15px;
+    text-align: center;
 }
-
-.info button {
-    font-size: 16px;
-    background-color: #f7f4f4;
-    border: 1px solid bisque;
-    padding: 5px 10px;
-    border-radius: 2px;
-    font-weight: 500;
-}
-
 .info h4 {
     font-size: 18px;
+  
 }
-
-.icon {
-    font-size: 16px;
-}
-
-
-
-.icon span {
-    margin-right: 16px;
-}
-
-
-
 /* bottom button part */
 .bottom-button {
     margin: 30px;
@@ -185,11 +182,9 @@ body {
     font-size: 20px;
     padding: 5px 16px;
     border-radius: 5px;
+    text-align: center;
 }
 
-/* bottom button part */
-
-/* footer-section-start */
 .footer-section {
     margin-top: 100px;
     background-color: #0b0934;
@@ -238,3 +233,4 @@ body {
 .icons a {
     color: white;
 }
+/* player */
